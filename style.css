@@ -69,14 +69,14 @@ nav ul li a{
     color: #FFFFFF;
     box-shadow: 3px 8px 22px rgba(94,28,68,0,15);
 }
-.arrow-icons{
+/* .arrow-icons{
     margin-top: 40px;
     display: flex;
 }
 .arrow-icons img{
     width: 40px;
     margin-right: 25px;
-}
+} */
 .social-links{
     transform: rotate(-90deg);
     position: absolute;
@@ -89,3 +89,4 @@ nav ul li a{
    padding-right: 20px;
    font-size: 14px;
 }
+
