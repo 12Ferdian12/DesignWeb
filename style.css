@@ -3,9 +3,9 @@
     padding:0;
 }
 .container{
-    height: 100vh;
+    height: 100px;
     width: 100%;
-    background-color: 	#36393e;
+    background-color: 	hwb(217 21% 76%);
     /* background-image: url(file:///C:/Users/indot_wm2b3it/Downloads/BackgroundImage.jpeg); */
    background-position: center;
    background-size: cover;
@@ -42,6 +42,7 @@ nav ul li{
 nav ul li a{
     text-decoration: none;
     color: #FFFFFF;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 .content h1{
     font-size: 60px;
@@ -58,11 +59,12 @@ nav ul li a{
     margin-left: 10%;
     margin-top: 10%;
    color: #7289DA;
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
 }
   /* How to make box */
 .content .btn{
     display: inline-block;
-    background: linear-gradient(45deg, #7289DA, #7289DA    );
+    background: linear-gradient(45deg, #2C2F33, #2C2F33);
     border-radius: 6px;
     padding: 10px 20px;
     box-sizing: border-box;
@@ -81,13 +83,32 @@ nav ul li a{
 .social-links{
     transform: rotate(-90deg);
     position: absolute;
-    left: -80px;
-    bottom: 180px;
+    left: -180px;
+    bottom: 200px;
 }
 .social-links a{
    text-decoration: none;
    color: #7289DA;
    padding-right: 20px;
    font-size: 14px;
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+body{
+    background-color: #7289DA;
+}
+.dropdown-menu{
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 100%;
+    background-color: #2C2F33;
 }
 
+.dropdown-menu ul{
+    display: block;
+    margin: 10px;
+}
+.dropdown-menu ul li{
+    width: 150px;
+    padding: 10px;
+}
