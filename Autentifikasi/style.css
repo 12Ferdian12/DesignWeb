@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding:0;
+}    
+body {
+    background-color: #7289da;
+}
+.container{
+    height: 100px;
+    width: 100%;
+    background-color: 	hwb(217 21% 76%);
+    /* background-image: url(file:///C:/Users/indot_wm2b3it/Downloads/BackgroundImage.jpeg); */
+   background-position: center;
+   background-size: cover;
+   padding-left: 5%;
+   padding-right: 5%;
+   box-sizing: border-box;
+   position: relative;
+  
+}
+.navbar{
+    width: 100%;
+    height: 15vh;
+    margin: auto;
+    display: flex;
+    align-items: center;
+}
+.logo{
+    width: 160px;
+    cursor: pointer;
+}
+.form{
+    display: inline-block;
+    background: linear-gradient(45deg, #2C2F33, #2C2F33);
+    border-radius: 6px;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    text-decoration: none;
+    color: #FFFFFF;
+    box-shadow: 3px 8px 22px rgba(94,28,68,0,15);
+}
