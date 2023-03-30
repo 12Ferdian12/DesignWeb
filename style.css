@@ -64,5 +64,33 @@ body{
     transform: scaleX(0.5);
     transition: 0.2s;
 }
+/* 
+.Extra a{
+    color: #a16c3d;
+} */
 
-/* Side-bar */
+#menu{
+    display: none;
+}
+
+/*content */
+.Opening h1{
+    color: #121212;
+    font-family: Inter,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif;
+    top: 25px;
+    left: 35px;
+    position: absolute;
+    padding: 175px 5%;
+}
+.Opening p{
+    color: #121212;
+    font-family: Inter,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif;
+    top: 25px;
+    left: 35px;
+    position: absolute;
+    padding: 250px 5%;
+}    
+.Opening span{
+    color: #a16c3d;
+    font-family: 'Poppins', sans-serif;
+}
