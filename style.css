@@ -10,7 +10,7 @@
 /* body */
 
 body{
-    background-color:/*#B3888C*/ #f7efef;
+    background-color:/*#B3888C*/ #c9c4c4;
     color: #121212;
     min-height: 2000px;
 }
@@ -99,6 +99,7 @@ body{
  }
 .Opening h1{
     color: #f7efef;
+    /* font-size: 3em; */
     font-family: Inter,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif;
     bottom: 170px;
     left: 35px;
@@ -119,8 +120,42 @@ body{
     font-family: 'Poppins', sans-serif;
 }
 
+.History { 
+    padding: 125px 5%;
+}
+.History h2{
+    color: #121212;
+    text-align: center;
+}
+.History span{
+    color: #a16c3d;
+}
+.History p{
+    color: #121212;
+    text-align: center;
+    /* bottom: 50px; */
+}
+
+/* laptop */
+
 @media (max-width: 1366px){
     html{
         font-size: 75%;
+    }
+}
+
+/* Tablet */
+
+@media (max-width: 768px){
+    html{
+        font-size: 62.5%;
+    }
+}
+
+/* Mobile-Phone */
+
+@media (max-width: 450px){
+    html{
+        font-size: 55%;
     }
 }
