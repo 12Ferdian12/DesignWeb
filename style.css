@@ -33,7 +33,9 @@ body{
     align-items: center;
     overflow: hidden;
     box-sizing: border-box;
-    /* position: fixed; */
+    position: sticky;
+    top: 0;
+    z-index: 9999;
     height: 60px;
     width: 100%;
     padding: 12px 2%;
@@ -129,11 +131,15 @@ body{
     display: flex;
 }
 .History .H-box .SBG img{
-    height: 500px;
+    /* SBG1 image */
+    /* height: 500px; */
+    /* left: 50px; */
+    height: 200px;
     left: 50px;
 }
 .History h2{
     color: #121212;
+    font-size: 50px;
     text-align: center;
 }
 .History span{
@@ -147,6 +153,19 @@ body{
     font-size: 20px;
 }
 
+/* Menu */
+
+.T-Menu{ 
+    padding: 125px 5%;
+}
+.T-Menu h2{
+    color: #121212;
+    font-size: 50px;
+    text-align: center;
+}
+.T-Menu span{
+    color: #a16c3d;
+}
 /* laptop */
 
 @media (max-width: 1366px){
