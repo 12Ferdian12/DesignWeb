@@ -27,7 +27,7 @@ body{
 /* Navbar */
 
 .Navbar{
-    display: flex;
+display: flex;
     justify-content: space-between;
     background-color: /*#191825*/ #121212; 
     align-items: center;
@@ -138,12 +138,12 @@ body{
     height: 200px;
     left: 50px;
 }
-.History h2{
+.History h2, .T-Menu h2{
     color: #121212;
     font-size: 50px;
     text-align: center;
 }
-.History span{
+.History span, .T-Menu span{
     color: #a16c3d;
 }
 .History p{
@@ -159,14 +159,14 @@ body{
 .T-Menu{ 
     padding: 125px 5% 25px;
 }
-.T-Menu h2{
+/* .T-Menu h2{
     color: #121212;
     font-size: 50px;
     text-align: center;
-}
-.T-Menu span{
+} */
+/* .T-Menu span{
     color: #a16c3d;
-}
+} */
 .T-Menu p{
     color: #121212;
     text-align: center;
@@ -181,9 +181,9 @@ body{
 
 .T-Menu .MC .list img{
     left: 0px;
-    height: 200px;
+    height: 220px;
     border-radius: 50%;
-    width: 200px;
+    width: 220px;
 }
 
 .T-Menu .MC .list h2{
@@ -198,6 +198,27 @@ body{
 
 /* laptop */
 
+.footer{
+    display: flex;
+    /* justify-content: space-between; */
+    background-color: /*#191825*/ #121212; 
+    align-items: center;
+    overflow: hidden;
+    box-sizing: border-box;
+    position: sticky;
+    top: 0;
+    z-index: 9999;
+    height: 120px;
+    width: 100%;
+    padding: 12px 2%;
+    border-bottom: 1px solid /*#937074*/ #d2caca;
+}
+.footer p{
+    justify-content: center;
+}
+.footer span{
+    color:#B3888C;
+}
 @media (max-width: 1366px){
     html{
         font-size: 75%;
