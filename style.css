@@ -213,11 +213,17 @@ display: flex;
     padding: 12px 2%;
     border-bottom: 1px solid /*#937074*/ #d2caca;
 }
+.footer{
+    align-items: center;
+}
 .footer p{
     justify-content: center;
 }
 .footer span{
     color:#B3888C;
+}
+.footer .Social a{
+    margin: 16px;
 }
 @media (max-width: 1366px){
     html{

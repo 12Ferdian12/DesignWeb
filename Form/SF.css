@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;  
+    border: 0; 
+    text-decoration: none;
+    font-family: Inter,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif;
+    color: #f7efef;
+}
+
+/* body */
+
+body{
+    background-color:/*#B3888C*/ #c9c4c4;
+    color: #121212;
+    min-height: 2000px;
+}
+
+/* Navbar */
+
+.Navbar{
+    display: flex;
+    justify-content: space-between;
+    background-color: /*#191825*/ #121212; 
+    align-items: center;
+    overflow: hidden;
+    box-sizing: border-box;
+    position: sticky;
+    top: 0;
+    z-index: 9999;
+    height: 75px;
+    width: 100%;
+    padding: 12px 2%;
+    border-bottom: 1px solid /*#937074*/ #d2caca;
+}
+.Navbar .Navbar-Content a{
+    float: left;
+    padding: 12px 15px;
+    font-size: 20px;
+    text-align: center;
+}
+.Navbar img{
+    /* height: 40px; */
+    height: 75px;
+    float: left;
+    /* width: 120px; */
+    width: 75px;
+    padding: 7px;
+}
+
+.Navbar .Navbar-Content a:hover{
+    color: #d2caca;
+}
+.Navbar .Navbar-Content a::after{
+    content: '';
+    display: block;
+    padding-bottom: 2px;
+    border-bottom: 2px solid #B3888C;
+    transform: scaleX(0);
+}
+.Navbar .Navbar-Content a:hover::after{
+    transform: scaleX(0.5);
+    transition: 0.2s;
+}
