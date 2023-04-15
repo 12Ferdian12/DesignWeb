@@ -15,7 +15,7 @@
     <nav class="Navbar">
         <a href="#Opening"><img src="img/Logo3.png" alt="Logo"></a>
         <div class="Navbar-Content">
-            <a href="Form/Form.html">Form</a>
+            <a href="Form/Form.php">Form</a>
             <a href="#History">History</a>
             <a href="#T-Menu">Top-Menu</a>
             <a href="#Contact">Contact</a>

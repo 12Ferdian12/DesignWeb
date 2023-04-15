@@ -10,9 +10,14 @@ function postRequestForm(){
         echo json_encode(["error" => "Nama  Dibutuhkan"]);
         exit;
     }
-    if(strlen($data["Nama"]) < 3){
+    if(strlen($data["Name"]) < 3){
         http_response_code(400);
         echo json_encode(["error" => "Nama harus lebih dari 3 huruf"]);
+        exit;
+    }
+    if(!isset($data["Age"])){
+        http_response_code(400);
+        echo json_encode(["error" => "Umur  Dibutuhkan"]);
         exit;
     }
     return $data;

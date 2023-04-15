@@ -1,5 +1,5 @@
 <?php
-    require_once '../Database.php';
+    require_once './Database.php';
 
     function createForm($conn, $data){
         $Name = mysqli_real_escape_string($conn,$data["Name"]);

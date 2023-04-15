@@ -13,12 +13,16 @@
 </head>
 <body>
     <nav class="Navbar">
-        <a href="../index.html"><img src="../img/Logo3.png" alt="Logo"></a>
+        <a href="../Main.php"><img src="../img/Logo3.png" alt="Logo"></a>
     </nav>
-    <form method="post"action="">
-        <label for="Name">Name:</label>
-        <input type="text" id="name" name="name"><br>
-
+    <form method="post"action="../Data/Function/funcAddForm.php">
+        <div class="Input">
+            <label for="Name">Nama:</label>
+            <input type="text" id="name" name="Name"><br>
+            <label for="Age">Nama:</label>
+            <input type="number" id="Age" name="Age"><br>
+        </div>
+        <button type="submit" >Submit</button>
     </form>
 </body>
 </html>
